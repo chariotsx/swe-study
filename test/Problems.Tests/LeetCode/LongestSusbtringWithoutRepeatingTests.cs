@@ -1,4 +1,4 @@
-namespace Problems.Tests.Leetcode
+namespace Problems.Tests.LeetCode
 {
     using Problems.LeetCode;
     using Xunit;

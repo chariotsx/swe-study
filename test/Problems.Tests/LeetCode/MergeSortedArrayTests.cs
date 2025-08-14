@@ -1,4 +1,4 @@
-namespace Problems.Tests.Leetcode
+namespace Problems.Tests.LeetCode
 {
     using Problems.LeetCode;
     using Xunit;
@@ -8,9 +8,9 @@ namespace Problems.Tests.Leetcode
         public static IEnumerable<object[]> TestData =>
             new List<object[]>
             {
-                new object[] { new[] { 1, 2, 3, 0, 0, 0 }, 3, new object[] { 2, 5, 6 }, 3, new object[] { 1, 2, 2, 3, 5, 6 }  },
-                new object[] { new[] { 1 }, 1, new object[] { } , 0, new object[] { 1 } },
-                new object[] { new[] { 0 }, 0, new object[] { 1 } , 1, new object[] { 1 } },
+                new object[] { new[] { 1, 2, 3, 0, 0, 0 }, 3, new[] { 2, 5, 6 }, 3, new[] { 1, 2, 2, 3, 5, 6 }  },
+                new object[] { new[] { 1 }, 1, Array.Empty<int>() , 0, new[] { 1 } },
+                new object[] { new[] { 0 }, 0, new[] { 1 } , 1, new[] { 1 } },
             };
 
         [Theory]
